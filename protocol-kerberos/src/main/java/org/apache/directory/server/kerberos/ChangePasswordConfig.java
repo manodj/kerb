@@ -49,5 +49,6 @@ public class ChangePasswordConfig extends KerberosConfig
         this.setMaximumTicketLifetime( kdcConfig.getMaximumTicketLifetime() );
         this.setPaEncTimestampRequired( kdcConfig.isPaEncTimestampRequired() );
         this.setSearchBaseDn( kdcConfig.getSearchBaseDn() );
+        this.setPrimaryRealm(kdcConfig.getPrimaryRealm());
     }
 }
