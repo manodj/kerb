@@ -778,7 +778,7 @@ public interface CoreSession
     /**
      * Unbind from the current LdapSession.
      * 
-     * @param unbindRequest The Unbind requst, potentially containing some controls
+     * @param unbindRequest The Unbind request, potentially containing some controls
      * @throws LdapException If the operation failed
      */
     void unbind( UnbindRequest unbindRequest ) throws LdapException;
